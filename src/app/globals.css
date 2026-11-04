@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f4f7f5;
+  --foreground: #0f172a;
+  --brand: #047857;
+  --brand-dark: #064e3b;
+  --surface: #ffffff;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(16, 185, 129, 0.1), transparent),
+    var(--background);
+  color: var(--foreground);
+  font-family: var(--font-source), system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+/* Tablas admin en móvil */
+.table-scroll {
+  @apply -mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0;
+}

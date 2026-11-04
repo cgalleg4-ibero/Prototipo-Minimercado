@@ -1,0 +1,38 @@
+{
+  "name": "minimercado",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "seed": "tsx scripts/seed.ts"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.4",
+    "iron-session": "^8.0.4",
+    "nanoid": "^5.1.5",
+    "next": "^16.4.5",
+    "postgres": "^3.4.7",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^0.1.0",
+    "@types/node": "^20.19.43",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.6.2",
+    "dotenv": "^18.0.9",
+    "drizzle-kit": "^0.18.1",
+    "eslint": "^4.0.0",
+    "eslint-config-next": "^0.2.4",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
